@@ -1,13 +1,13 @@
 {
   "page": {
-    "product": "/product/polo/",
+    "product": "/product/beanie/",
     "checkout": "/checkout",
     "order_received": "order-received",
     "sign_in": "my-account/"
   },
   "product": {
-    "price": "20",
-    "quantity": "//*[@class='input-text qty text']",
+    "price": "18",
+    "quantity": "/html/body/div[1]/div[2]/div/div[2]/main/div[2]/div[2]/form/div/input",
     "add_to_cart": "//*[@name='add-to-cart']",
     "cart": ""
   },
