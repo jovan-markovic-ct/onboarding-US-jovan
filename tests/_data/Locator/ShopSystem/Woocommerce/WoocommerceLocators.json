@@ -7,7 +7,7 @@
   },
   "product": {
     "price": "18",
-    "quantity": "/html/body/div[1]/div[2]/div/div[2]/main/div[2]/div[2]/form/div/input",
+    "quantity": "//input[@class='input-text qty text']",
     "add_to_cart": "//*[@name='add-to-cart']",
     "cart": ""
   },
