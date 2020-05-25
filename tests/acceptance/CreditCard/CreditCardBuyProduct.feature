@@ -19,4 +19,3 @@ Feature: CreditCardBuyProduct
     Examples:
       | payment_action  | amount | transaction_type |
       |    "pay"        |  "18"  |  "purchase"      |
-    
