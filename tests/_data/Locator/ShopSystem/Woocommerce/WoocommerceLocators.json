@@ -1,13 +1,13 @@
 {
   "page": {
-    "product": "/product/polo/",
+    "product": "/product/beanie/",
     "checkout": "/checkout",
     "order_received": "order-received",
     "sign_in": "my-account/"
   },
   "product": {
-    "price": "20",
-    "quantity": "//*[@class='input-text qty text']",
+    "price": "18",
+    "quantity": "//input[@class='input-text qty text']",
     "add_to_cart": "//*[@name='add-to-cart']",
     "cart": ""
   },
@@ -27,7 +27,8 @@
     "creditcard_form" : "//*[@id='wc_payment_method_wirecard_new_credit_card']",
     "paypal_form" : "//*[@id='payment_method_wirecard_ee_paypal']",
     "wirecard_creditcard":  "//*[@id='payment']/ul/li[contains(@class, 'creditcard')]",
-    "wirecard_paypal":  "//*[@id='payment']/ul/li[contains(@class, 'paypal')]"
+    "wirecard_ideal": "//*[@id='payment']/ul/li[contains(@class, 'ideal')]",
+    "ideal_bank_select": "//*[@name='ideal_bank_bic']"
   },
   "order_pay": {
     "pay": "//*[@id='seamless-submit']"
